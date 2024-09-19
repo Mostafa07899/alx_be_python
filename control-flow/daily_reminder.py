@@ -16,5 +16,4 @@ if time_bound == "yes":
     reminder = reminder + "this is a time-bound task that requires immediate attention today."
 else:
     reminder = reminder + "this task is not time-bound that doesn't require immediate attention."
-
 print(reminder)
