@@ -13,14 +13,14 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.__account_balance}")
+        print(f"Current Balance: ${self.__account_balance:.2f}")
 
 
 
 import sys
 from bank_account import BankAccount
 def main():
-    account = BankAccount(250.00)  # Example starting balance
+    account = BankAccount(250)  # Example starting balance
     if len(sys.argv) < 2:
         print("Usage: python main.py <command>:<amount>")
         print("Commands: deposit, withdraw, display")
