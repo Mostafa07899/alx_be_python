@@ -20,7 +20,7 @@ from book_class import Book
 
 def main():
     my_book = Book("1984", "George Orwell", 1949)
-    print(str(my_book))  
+    print(my_book)
 
     print(repr(my_book))  
 
